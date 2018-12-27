@@ -1,0 +1,62 @@
+﻿生成启动时间为 2018/12/26 17:14:04。
+     1>项目“E:\workspace\VSWork\bsdiff\bsdiff\bsdiff.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\developer\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt blocksort.c bzlib.c compress.c crctable.c decompress.c huffman.c randtable.c
+         randtable.c
+         huffman.c
+         decompress.c
+         crctable.c
+         compress.c
+     1>compress.c(205): warning C4244: “=”: 从“__int64”转换到“Int32”，可能丢失数据
+         bzlib.c
+     1>bzlib.c(996): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+     1>bzlib.c(1055): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+     1>bzlib.c(1190): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+     1>bzlib.c(1416): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\developer\vs2013\VC\include\string.h(118) : 参见“strcat”的声明
+     1>bzlib.c(1417): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\developer\vs2013\VC\include\string.h(118) : 参见“strcat”的声明
+     1>bzlib.c(1422): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 D:\developer\vs2013\VC\include\io.h(338) : 参见“setmode”的声明
+     1>bzlib.c(1422): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 D:\developer\vs2013\VC\include\stdio.h(718) : 参见“fileno”的声明
+     1>bzlib.c(1424): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\developer\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>bzlib.c(1430): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 D:\developer\vs2013\VC\include\stdio.h(716) : 参见“fdopen”的声明
+         blocksort.c
+         正在生成代码...
+         D:\developer\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt bsdiff.cpp
+         bsdiff.cpp
+     1>bsdiff.cpp(263): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 D:\developer\vs2013\VC\include\io.h(336) : 参见“open”的声明
+     1>bsdiff.cpp(263): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 D:\developer\vs2013\VC\include\io.h(334) : 参见“lseek”的声明
+     1>bsdiff.cpp(266): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 D:\developer\vs2013\VC\include\io.h(337) : 参见“read”的声明
+     1>bsdiff.cpp(267): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 D:\developer\vs2013\VC\include\io.h(326) : 参见“close”的声明
+     1>bsdiff.cpp(291): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 D:\developer\vs2013\VC\include\io.h(336) : 参见“open”的声明
+     1>bsdiff.cpp(295): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 D:\developer\vs2013\VC\include\io.h(337) : 参见“read”的声明
+     1>bsdiff.cpp(296): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 D:\developer\vs2013\VC\include\io.h(326) : 参见“close”的声明
+     1>bsdiff.cpp(308): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\developer\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         D:\developer\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\VSWork\bsdiff\x64\Debug\bsdiff.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\workspace\VSWork\bsdiff\x64\Debug\bsdiff.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\VSWork\bsdiff\x64\Debug\bsdiff.lib" /MACHINE:X64 /DLL x64\Debug\blocksort.obj
+         x64\Debug\bsdiff.obj
+         x64\Debug\bzlib.obj
+         x64\Debug\compress.obj
+         x64\Debug\crctable.obj
+         x64\Debug\decompress.obj
+         x64\Debug\huffman.obj
+         x64\Debug\randtable.obj
+            正在创建库 E:\workspace\VSWork\bsdiff\x64\Debug\bsdiff.lib 和对象 E:\workspace\VSWork\bsdiff\x64\Debug\bsdiff.exp
+         bsdiff.vcxproj -> E:\workspace\VSWork\bsdiff\x64\Debug\bsdiff.dll
+     1>已完成生成项目“E:\workspace\VSWork\bsdiff\bsdiff\bsdiff.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.04
